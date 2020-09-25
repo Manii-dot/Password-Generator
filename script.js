@@ -62,7 +62,7 @@ function generatePassword(){
   console.log(potentialPassOutcome);
 
 
-for(var i = 0; i < length; i++){
+for(var i = 0; i < useroption.length; i++){
   ultimatePass += potentialPassOutcome[Math.floor(Math.random()*potentialPassOutcome.length)];
 }
 console.log(ultimatePass);
